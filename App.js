@@ -1,9 +1,5 @@
-import { Text, View } from 'react-native';
+import container from './navegacao/LugaresNavigator';
 
 export default function App() {
-  return (
-    <View>
-      <Text>Meu app</Text>
-    </View>
-  );
+  return container
 }
